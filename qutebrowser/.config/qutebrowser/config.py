@@ -118,3 +118,6 @@ config.set('content.javascript.enabled', True, 'chrome://*/*')
 # Enable JavaScript.
 # Type: Bool
 config.set('content.javascript.enabled', True, 'qute://*/*')
+
+config.source('nord-qutebrowser.py')
+config.bind('xx', 'config-cycle tabs.show always never;; config-cycle statusbar.show always never')

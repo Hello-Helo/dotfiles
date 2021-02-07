@@ -93,10 +93,6 @@ modules-left =
 modules-center = pulseaudio memory wlan battery temperature date
 modules-right =  
 
-tray-position = right
-tray-padding = 2
-;tray-background = #0063ff
-
 ;wm-restack = bspwm
 ;wm-restack = i3
 
