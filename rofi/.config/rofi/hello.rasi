@@ -1,7 +1,6 @@
 configuration{
   font: "mononoki Nerd Font 11";
   lines: 6;
-  show-icons: true;
 }
 
 * {
