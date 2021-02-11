@@ -110,9 +110,11 @@ super + {Left,Down,Up,Right}
 super + d
 	qutebrowser 
 
-super + p
+super + u
 	~/scripts/rofi-unicode
 
-# Show help
-super + slash
-    	~/scripts/sxhkd-help
+super + p
+	passmenu
+
+super + o; super + p
+	passmenu-otp
