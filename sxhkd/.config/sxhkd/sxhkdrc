@@ -114,7 +114,4 @@ super + u
 	~/scripts/rofi-unicode
 
 super + p
-	passmenu
-
-super + o; super + p
 	passmenu-otp
