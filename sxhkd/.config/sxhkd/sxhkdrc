@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + @space
-	rofi -show drun -theme hello.rasi -show-icons
+	rofi -show drun -show-icons
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -107,11 +107,40 @@ super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
 # Lauchers
-super + d
+super + w
 	qutebrowser 
 
 super + u
-	~/scripts/rofi-unicode
+	rofi-unicode
 
 super + p
 	passmenu-otp
+
+super + i
+	rofi-scrot
+
+# Function keys
+
+XF86AudioMute
+	pulsemixer --toggle-mute
+
+XF86AudioNext
+	playerctl -p ncspot next
+
+XF86AudioPrev
+	playerctl -p ncspot previous
+
+XF86AudioPlay
+	playerctl -p ncspot play-pause
+
+XF86AudioLowerVolume
+	pulsemixer --change-volume -5
+
+XF86AudioRaiseVolume
+	pulsemixer --change-volume +5
+
+XF86MonBrightnessUp
+	xbacklight -inc 10
+
+XF86MonBrightnessDown
+	xbacklight -dec 10
