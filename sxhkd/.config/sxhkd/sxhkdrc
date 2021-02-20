@@ -1,6 +1,5 @@
 #
-# wm independent hotkeys
-#
+# wm independent hotkeys 
 
 # terminal emulator
 super + Return
@@ -122,7 +121,7 @@ super + i
 # Function keys
 
 XF86AudioMute
-	pulsemixer --toggle-mute
+	pulsemixer --toggle-mute; notify-send "Audio" "Mute toggle"
 
 XF86AudioNext
 	playerctl -p ncspot next
@@ -131,7 +130,7 @@ XF86AudioPrev
 	playerctl -p ncspot previous
 
 XF86AudioPlay
-	playerctl -p ncspot play-pause
+	playerctl -p ncspot play-pause; notify-send "Audio" "Play/Pause toggle"
 
 XF86AudioLowerVolume
 	pulsemixer --change-volume -5
