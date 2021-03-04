@@ -3,7 +3,7 @@ nnoremap <leader>f :Files<CR>
 nnoremap <leader>b :Buffers<CR>
 
 nnoremap <Leader>w :w<CR>
-nnoremap <Leader>q :p<CR>
+nnoremap <Leader>q :q<CR>
 nnoremap <Leader>x :wq<CR>
 
 " Enable and disable auto comment
