@@ -15,9 +15,6 @@ set colorcolumn=80
 "Leave 5 lines showing while scrolling
 set scrolloff=5
 
-" Block cursor in INSERT
-set guicursor
-
 " Dont continue comments, by default
 set formatoptions-=cro
 
