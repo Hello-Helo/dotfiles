@@ -13,3 +13,7 @@ map <leader>C :setlocal formatoptions=cro<CR>
 " Enable spell checking, s for spell check
 map <leader>se :setlocal spell! spelllang=en_us<CR>
 map <leader>sp :setlocal spell! spelllang=pt_br<CR>
+
+" Git
+nmap <leader>gs :G<CR>
+nmap <leader>gm :Gcommit<CR>

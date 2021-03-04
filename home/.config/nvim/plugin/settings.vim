@@ -16,7 +16,7 @@ set colorcolumn=80
 set scrolloff=5
 
 " Dont continue comments, by default
-set formatoptions-=cro
+set formatoptions=cro
 
 " Case insensitivity
 set ignorecase

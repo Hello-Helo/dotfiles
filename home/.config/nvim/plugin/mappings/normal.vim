@@ -5,4 +5,4 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 " Alias replace all to
-nnoremap <A-s> :%s//gI<Left><Left><Left>
+nnoremap <A-s> :%s//gIc<Left><Left><Left>
