@@ -84,7 +84,7 @@ super + {Left,Down,Up,Right}
 ############
 
 super + w
-	qutebrowser 
+	qutebrowser
 
 super + u
 	rofi-unicode
@@ -94,6 +94,12 @@ super + p
 
 super + i
 	rofi-scrot
+
+super + b
+  screenkey -s small -f mononoki\ Nerd\ Font -p fixed -g 20%x10%-5%+10% --bg-color \#2E3440 &
+
+super + n
+  killall screenkey
 
 
 #################
