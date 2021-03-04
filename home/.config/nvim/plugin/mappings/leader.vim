@@ -16,4 +16,4 @@ map <leader>sp :setlocal spell! spelllang=pt_br<CR>
 
 " Git
 nmap <leader>gs :G<CR>
-nmap <leader>gm :Git Commit<CR>
+nmap <leader>gm :Git commit<CR>

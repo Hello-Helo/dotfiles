@@ -585,6 +585,11 @@ call s:hi("GitGutterChange", s:nord13_gui, "", s:nord13_term, "", "", "")
 call s:hi("GitGutterChangeDelete", s:nord11_gui, "", s:nord11_term, "", "", "")
 call s:hi("GitGutterDelete", s:nord11_gui, "", s:nord11_term, "", "", "")
 
+call s:hi("GitGutterAddLineNr", s:nord14_gui, "", s:nord14_term, "", "", "")
+call s:hi("GitGutterChangeLineNr", s:nord13_gui, "", s:nord13_term, "", "", "")
+call s:hi("GitGutterChangeDeleteLineNr", s:nord11_gui, "", s:nord11_term, "", "", "")
+call s:hi("GitGutterDeleteLineNr", s:nord11_gui, "", s:nord11_term, "", "", "")
+
 " Signify
 " > mhinz/vim-signify
 call s:hi("SignifySignAdd", s:nord14_gui, "", s:nord14_term, "", "", "")
