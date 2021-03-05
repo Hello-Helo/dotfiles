@@ -42,3 +42,7 @@ let g:tex_conceal='abdmgs'
 
 " autocmd :GitGutterLineNrHighlightsEnable
 " autocmd :GitGutterSignsDisable
+
+
+" StatusLine
+let g:moonflyWithGitBranchCharacter = 1

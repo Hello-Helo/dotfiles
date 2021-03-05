@@ -10,6 +10,8 @@ nnoremap <Leader>x :wq<CR>
 map <leader>c :setlocal formatoptions-=cro<CR>
 map <leader>C :setlocal formatoptions=cro<CR>
 
+nnoremap <leader>so :so %<CR>
+
 " Enable spell checking, s for spell check
 map <leader>se :setlocal spell! spelllang=en_us<CR>
 map <leader>sp :setlocal spell! spelllang=pt_br<CR>
