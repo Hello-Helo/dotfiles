@@ -40,8 +40,7 @@ let g:tex_conceal='abdmgs'
 
 " GitGutter
 
-" autocmd :GitGutterLineNrHighlightsEnable
-" autocmd :GitGutterSignsDisable
+let g:gitgutter_highlight_linenrs=1
 
 
 " StatusLine
