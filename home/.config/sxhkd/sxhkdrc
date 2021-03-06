@@ -102,6 +102,10 @@ super + n
   killall screenkey
 
 
+super + ,
+  rofi-courses.py
+
+
 #################
 # Function keys #
 #################
