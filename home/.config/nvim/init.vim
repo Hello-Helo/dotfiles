@@ -10,5 +10,6 @@ Plug 'lervag/vimtex'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'bluz71/vim-moonfly-statusline'
+Plug 'kovetskiy/sxhkd-vim'
 
 call plug#end()
