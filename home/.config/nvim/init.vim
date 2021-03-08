@@ -11,5 +11,6 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'bluz71/vim-moonfly-statusline'
 Plug 'kovetskiy/sxhkd-vim'
+Plug 'dense-analysis/ale'
 
 call plug#end()

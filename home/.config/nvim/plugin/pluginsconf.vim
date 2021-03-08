@@ -29,6 +29,10 @@ let g:UltiSnipsEditSplit="vertical"
 let g:deoplete#enable_at_startup = 1
 inoremap <expr><A-tab> pumvisible() ? "\<c-n>" : "\<A-tab>"
 
+call deoplete#custom#option('sources', {
+\ '_': ['ale', 'foobar'],
+\})
+
 
 " Vimtex
 let g:tex_flavor='latex'
@@ -39,9 +43,12 @@ let g:tex_conceal='abdmgs'
 
 
 " GitGutter
-
 let g:gitgutter_highlight_linenrs=1
 
 
 " StatusLine
 let g:moonflyWithGitBranchCharacter = 1
+
+
+" ALE
+let g:ale_completion_enabled = 1
