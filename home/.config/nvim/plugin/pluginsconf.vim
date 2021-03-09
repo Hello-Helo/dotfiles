@@ -29,9 +29,9 @@ let g:UltiSnipsEditSplit="vertical"
 let g:deoplete#enable_at_startup = 1
 inoremap <expr><A-tab> pumvisible() ? "\<c-n>" : "\<A-tab>"
 
-call deoplete#custom#option('sources', {
-\ '_': ['ale', 'foobar'],
-\})
+" call deoplete#custom#option('sources', {
+" \ '_': ['ale', 'foobar'],
+" \})
 
 
 " Vimtex
