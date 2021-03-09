@@ -1,5 +1,4 @@
 # Basic Settings
-set hidden true
 set drawbox true
 set ignorecase true
 
