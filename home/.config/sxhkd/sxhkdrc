@@ -101,6 +101,9 @@ super + alt + b
 super + alt + n
   killall screenkey
 
+super + o
+	rofi-dotfiles
+
 
 ##############
 # University #
