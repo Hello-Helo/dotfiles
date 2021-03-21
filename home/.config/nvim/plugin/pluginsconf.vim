@@ -29,9 +29,10 @@ let g:UltiSnipsEditSplit="vertical"
 let g:deoplete#enable_at_startup = 1
 inoremap <expr><A-tab> pumvisible() ? "\<c-n>" : "\<A-tab>"
 
-" call deoplete#custom#option('sources', {
-" \ '_': ['ale', 'foobar'],
-" \})
+" This is new style
+call deoplete#custom#var('omni', 'input_patterns', {
+      \ 'tex': g:vimtex#re#deoplete
+      \})
 
 
 " Vimtex
