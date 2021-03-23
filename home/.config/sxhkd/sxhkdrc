@@ -31,10 +31,6 @@ super + {_,shift + }q
 super + {t,shift + t,s,f}
 	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
 
-# set the node flags
-super + ctrl + {m,x,y,z}
-	bspc node -g {marked,locked,sticky,private}
-
 
 ################
 # Focus & Swap #
@@ -95,11 +91,8 @@ super + p
 super + i
 	rofi-scrot
 
-super + alt + b
-  screenkey -s small -f mononoki\ Nerd\ Font -p fixed -g 20%x10%-5%+10% --bg-color \#2E3440 &
-
-super + alt + n
-  killall screenkey
+super + ctrl + b
+	screen-key-toggle
 
 super + o
 	rofi-dotfiles
@@ -109,16 +102,16 @@ super + o
 # University #
 ##############
 
-alt + b
-  /home/hellohelo/scripts/university-setup/rofi-courses.py
+super + ctrl + c
+  rofi-courses.py
 
-alt + n
-  /home/hellohelo/scripts/university-setup/rofi-lectures-view.py
+super + ctrl + v
+  rofi-lectures-view.py
 
-alt + m
-  /home/hellohelo/scripts/university-setup/rofi-lectures.py
+super + ctrl + a
+  rofi-lectures.py
 
-alt + f
+super + ctrl + t
   termite -d /home/hellohelo/documents/university/current-subject/
 
 
