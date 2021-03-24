@@ -2,6 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 dunst &
+systemctl --user enable spotifyd --now
 $HOME/.config/polybar/launch.sh
 
 bspc monitor -d I II III IV V VI VII VIII IX X
