@@ -2,10 +2,14 @@
 set drawbox true
 set ignorecase true
 
+# Custom hidden files
+set hiddenfiles .*:*.aux:*.dvi:*.fdb_latexmk:*.fls:*.log:*.synctex.gz:*.toc:*.latexmain
+
 # Custom Functions
 cmd open ${{
     case $(file --mime-type "$f" -bL) in
         text/*|application/json) $EDITOR "$f";;
+        application/pdf) zathura "$f" & ;;
         *) xdg-open "$f" ;;
     esac
 }}
