@@ -123,13 +123,13 @@ XF86AudioMute
 	pulsemixer --toggle-mute; notify-send "Audio" "Mute toggle"
 
 XF86AudioNext
-	playerctl -p ncspot next
+	playerctl -p spotifyd next
 
 XF86AudioPrev
-	playerctl -p ncspot previous
+	playerctl -p spotifyd previous
 
 XF86AudioPlay
-	playerctl -p ncspot play-pause; notify-send "Audio" "Play/Pause toggle"
+	playerctl -p spotifyd play-pause
 
 XF86AudioLowerVolume
 	pulsemixer --change-volume -5
