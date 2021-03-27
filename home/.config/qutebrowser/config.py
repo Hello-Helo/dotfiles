@@ -119,5 +119,18 @@ config.set('content.javascript.enabled', True, 'chrome://*/*')
 # Type: Bool
 config.set('content.javascript.enabled', True, 'qute://*/*')
 
+# Colorscheme
 config.source('nord-qutebrowser.py')
+
+c.url.searchengines = {'DEFAULT': 'https://duckduckgo.com/?q={}',
+        'aw': 'https://wiki.archlinux.org/?search={}',
+        'goog': 'https://www.google.com/search?q={}',
+        'gh': 'https://github.com/search?q={}',
+        'gl': 'https://gitlab.com/search?search={}',
+        're': 'https://www.reddit.com/r/{}',
+        'wk': 'https://en.wikipedia.org/wiki/{}',
+        'yt': 'https://www.youtube.com/results?search_query={}'}
+
+# Keybindins
+config.bind('M', 'hint links spawn mpv {hint-url}')
 config.bind('xx', 'config-cycle tabs.show always never;; config-cycle statusbar.show always never')
