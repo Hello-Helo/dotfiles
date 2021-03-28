@@ -53,3 +53,8 @@ let g:moonflyWithGitBranchCharacter = 1
 
 " ALE
 let g:ale_completion_enabled = 1
+
+
+" Goyo & limelight
+autocmd! User GoyoEnter Limelight
+autocmd! User GoyoLeave Limelight!
