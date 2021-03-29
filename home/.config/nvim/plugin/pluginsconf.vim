@@ -16,23 +16,12 @@ let g:fzf_colors =
             \ 'spinner': ['fg', 'Label'],
             \ 'header':  ['fg', 'Comment'] }
 
-
 " UltiSnips
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 let g:UltiSnipsEditSplit="vertical"
-
-
-" Deoplete
-let g:deoplete#enable_at_startup = 1
-inoremap <expr><A-tab> pumvisible() ? "\<c-n>" : "\<A-tab>"
-
-" This is new style
-call deoplete#custom#var('omni', 'input_patterns', {
-      \ 'tex': g:vimtex#re#deoplete
-      \})
 
 
 " Vimtex

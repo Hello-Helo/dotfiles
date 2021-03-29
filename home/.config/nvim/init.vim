@@ -7,11 +7,9 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'junegunn/fzf.vim'
 
 " Code completion
-Plug 'Shougo/deoplete.nvim'
 Plug 'SirVer/ultisnips'
 
 " Language support
-Plug 'dense-analysis/ale'
 Plug 'lervag/vimtex'
 Plug 'kovetskiy/sxhkd-vim'
 
