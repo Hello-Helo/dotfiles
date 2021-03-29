@@ -1,3 +1,40 @@
+" StatusLine - LuaLine
+lua << EOF
+require('lualine').setup{
+  options = {
+    theme = 'nord'
+    -- section_separators = '',
+    -- component_separators = ''
+  }
+}
+EOF
+
+" Compe
+lua << EOF
+require'compe'.setup {
+  enabled = true;
+  autocomplete = true;
+  debug = false;
+  min_length = 1;
+  preselect = 'enable';
+  throttle_time = 80;
+  source_timeout = 200;
+  incomplete_delay = 400;
+  max_abbr_width = 100;
+  max_kind_width = 100;
+  max_menu_width = 100;
+  documentation = true;
+
+  source = {
+    ultisnips = true;
+    path = true;
+    buffer = true;
+    nvim_lsp = true;
+    nvim_lua = true;
+  };
+}
+EOF
+
 " FZF config
 let g:fzf_preview_window = []
 let g:fzf_layout = { 'down': '30%' }
@@ -34,14 +71,6 @@ let g:tex_conceal='abdmgs'
 
 " GitGutter
 let g:gitgutter_highlight_linenrs=1
-
-
-" StatusLine
-let g:moonflyWithGitBranchCharacter = 1
-
-
-" ALE
-let g:ale_completion_enabled = 1
 
 
 " Goyo & limelight

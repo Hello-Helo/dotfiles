@@ -16,7 +16,7 @@ set colorcolumn=80
 set scrolloff=5
 
 " Dont continue comments, by default
-set formatoptions=cro
+set formatoptions-=cro
 
 " No sign column
 set signcolumn=no
@@ -30,6 +30,16 @@ set splitbelow splitright
 
 " No highlighit after search
 set nohlsearch
+
+"For autocompletion
+set completeopt=menuone,noselect
+
+lua << EOF
+local servers = { "pyright", "rust_analyzer", "texlab" }
+for _, lsp in ipairs(servers) do
+  nvim_lsp[lsp].setup { on_attach = on_attach }
+end
+EOF
 
 " Folding config
 if has('folding')
