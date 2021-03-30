@@ -2,6 +2,7 @@ filetype plugin on
 
 " Syntax colors
 syntax on
+set termguicolors
 colorscheme nord
 
 " Numbers
@@ -35,10 +36,10 @@ set nohlsearch
 set completeopt=menuone,noselect
 
 lua << EOF
-local servers = { "pyright", "rust_analyzer", "texlab" }
-for _, lsp in ipairs(servers) do
-  nvim_lsp[lsp].setup { on_attach = on_attach }
-end
+-- Languages
+require'lspconfig'.pyright.setup{}
+require'lspconfig'.texlab.setup{}
+require'lspconfig'.rust_analyzer.setup{}
 EOF
 
 " Folding config
