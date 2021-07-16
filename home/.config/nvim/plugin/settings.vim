@@ -35,6 +35,9 @@ set nohlsearch
 "For autocompletion
 set completeopt=menuone,noselect
 
+"Set nowrap
+set nowrap
+
 lua << EOF
 -- Languages
 require'lspconfig'.pyright.setup{}

@@ -74,5 +74,8 @@ let g:gitgutter_highlight_linenrs=1
 
 
 " Goyo & limelight
-autocmd! User GoyoEnter Limelight
-autocmd! User GoyoLeave Limelight!
+autocmd! User GoyoEnter call Gylle()
+autocmd! User GoyoLeave call Gylll()
+let g:limelight_default_coefficient = 0.5
+let g:limelight_conceal_guifg = '#3B4252'
+let g:limelight_conceal_guibg = '#2E3440'

@@ -62,6 +62,8 @@ font-2 = siji:pixelsize=10;1
 modules-center = bspwm
 wm-restack = bspwm
 
+
+
 [bar/bar1]
 
 width = 48%
@@ -91,7 +93,7 @@ font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 
 modules-left =
-modules-center = subject wlan pulseaudio battery temperature date
+modules-center = subject wlan pulseaudio battery timer date
 modules-right =
 
 wm-restack = bspwm
@@ -197,7 +199,7 @@ label-muted = %percentage%%
 
 [module/subject]
 type = custom/script
-exec = cat /home/hellohelo/documents/university/current-subject/info.yaml | awk 'NR==1{print $2}' | tr -d \'
+exec = cat /home/hellohelo/documents/university/current-subject/info.yaml | awk '{print $2}'
 format-prefix = "  "
 format-prefix-foreground = ${colors.red}
 
@@ -218,6 +220,22 @@ format-full-prefix = " "
 format-full-prefix-foreground = ${colors.green}
 
 
+
+[module/timer]
+
+type = custom/script
+
+exec = /home/hellohelo/.local/bin/polybar-timer tail 'Timer' 5
+tail = true
+
+click-left = /home/hellohelo/.local/bin/polybar-timer new 25 'Pomo' 'notify-send "Session finished" && aplay ~/music/ding.wav &'; /home/hellohelo/.local/bin/polybar-timer update %pid%
+click-middle = /home/hellohelo/.local/bin/polybar-timer cancel ; /home/hellohelo/.local/bin/polybar-timer update %pid%
+click-right = /home/hellohelo/.local/bin/polybar-timer new 5 'Pomo' 'notify-send "Break finished" && aplay ~/music/ding.wav' ; /home/hellohelo/.local/bin/polybar-timer update %pid%
+scroll-up = /home/hellohelo/.local/bin/polybar-timer increase 60 || /home/hellohelo/.local/bin/polybar-timer new 1 'TIMER:' 'notify-send -u critical "Timer expired." && aplay ~/music/ding.wav &' ; /home/hellohelo/.local/bin/polybar-timer update %pid%
+scroll-down = /home/hellohelo/.local/bin/polybar-timer increase -60 ; /home/hellohelo/.local/bin/polybar-timer update %pid%
+
+format-prefix-foreground = ${colors.blue}
+format-prefix = " "
 
 
 [module/temperature]

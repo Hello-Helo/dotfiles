@@ -3,6 +3,8 @@ set recolor
 set recolor-keephue
 set recolor-reverse-video
 
+set selection-clipboard clipboard
+
 # Nord colors
 set completion-bg "#3b4252"
 set completion-fg "#eceff4"

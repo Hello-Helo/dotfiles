@@ -35,3 +35,14 @@ _G.s_tab_complete = function()
   end
 end
 EOF
+
+" Goyo & LimeLight
+function Gylle()
+  set conceallevel=0
+  :Limelight<CR>
+endfunction
+
+function Gylll()
+  set conceallevel=2
+  :Limelight!<CR>
+endfunction
