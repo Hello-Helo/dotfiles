@@ -1,0 +1,3 @@
+{"rule":"AI_PT_GGEC_REPLACEMENT_NOUN","sentence":"^\\QProve que um grafo conexo \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q é euleriano se, e só se, \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q contém circuitos \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q dois a dois disjuntos nas arestas tais que \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"AI_PT_GGEC_REPLACEMENT_ORTHOGRAPHY_SPELL","sentence":"^\\QSe concaternarmos a aresta \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q a esse caminho, criamos o ciclo \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, que tem comprimento par, pois adicionamos apenas uma aresta.\\E$"}
+{"rule":"AI_PT_GGEC_MISSING_DETERMINER","sentence":"^\\QLogo, toda aresta será contada exatamente uma vez.\\E$"}

@@ -1,0 +1,38 @@
+# Recolor to dark
+set recolor
+set recolor-keephue
+set recolor-reverse-video
+
+set selection-clipboard clipboard
+
+# Presentation remaps
+map presentation Button4 navigate next
+map presentation Button5 navigate previous
+
+# Nord colors
+set completion-bg "#323d43"
+set completion-fg "#d3c6aa"
+set completion-group-bg "#323d43"
+set completion-group-fg "#d3c6aa"
+set completion-highlight-bg "#dbbc7f"
+set completion-highlight-fg "#2f383e"
+set default-bg "#2b3339"
+set default-fg "##d3c6aa"
+set highlight-active-color "#83c092"
+set highlight-color "#7fbbb3"
+set index-active-bg "#81a1c1"
+set index-active-fg "#2b3339"
+set index-bg "#2b3339"
+set index-fg "#d3c6aa"
+set inputbar-bg "#323d43"
+set inputbar-fg "#d3c6aa"
+set notification-bg "#2f383e"
+set notification-error-bg "#e67e80"
+set notification-error-fg "#d3c6aa"
+set notification-fg "#d3c6aa"
+set notification-warning-bg "#ebcb8b"
+set notification-warning-fg "#2f383e"
+set recolor-darkcolor "#d3c6aa"
+set recolor-lightcolor "#2f383e"
+set statusbar-bg "#2f383e"
+set statusbar-fg "#d3c6aa"

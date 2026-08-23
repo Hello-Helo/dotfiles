@@ -1,0 +1,63 @@
+configuration {
+  font: "mononoki Nerd Font 12";
+  modi: [window,run,ssh,drun];
+  show-icons: false;
+}
+
+* {
+    background1: #2b3339;
+    background2: #2f383e;
+    background3: #323d43;
+    foreground1:  #d3c6aa;
+    black:       #4b565c;
+    red:         #e67e80;
+    green:       #a7c080;
+    yellow:      #dbbc7f;
+    blue:        #7fbbb3;
+    magenta:     #d699b6;
+    cyan:        #83c092;
+    white:       #d3c6aa;
+
+    background-color:   @background1;
+    border-color:       @black;
+    text-color:         @foreground1;
+}
+
+inputbar {
+    padding: 3;
+    border: 0 0 0 0;
+    children: [prompt,entry];
+}
+
+prompt {
+    padding: 12px;
+    border: 0 1px 0 0;
+}
+
+textbox {
+  background-color: @red;
+  border: 0 0 1px 0;
+  border-color: @black;
+  padding: 8px 16px;
+}
+
+entry {
+    padding: 12px;
+}
+
+listview {
+  cycle: false;
+  lines: 6;
+  margin: 0 0 -1px 0;
+  scrollbar: false;
+}
+
+element {
+  border: 0 0 0 0;
+  padding: 16px;
+}
+
+element selected {
+  border: 3;
+  border-color: @foreground1;
+}

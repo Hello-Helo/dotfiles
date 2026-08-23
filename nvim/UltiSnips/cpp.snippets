@@ -1,0 +1,41 @@
+snippet include "all include" b
+#include <iostream>
+#include <utility>
+#include <tuple>
+#include <array>
+#define BOOST_ALLOW_DEPRECATED_HEADERS
+#include <boost/graph/graph_traits.hpp>
+#include <boost/graph/adjacency_list.hpp>
+endsnippet
+
+snippet main "main function" bA
+int main (int argc, char** argv)
+{
+	$0
+}
+endsnippet
+
+snippet forc "general for loop (for)" bA
+for (${6:auto} ${1:i} = ${2:v.begin()}; `!p import re; snip.rv = re.split("[^\w]",t[1])[-1]` ${4:!=} ${3:`!p m = re.search(r'^(?:(.*)(\.|->)begin\(\)|((?:std|boost)::)?begin\((.*)\))$', t[2]); snip.rv = (((m.group(3) if m.group(3) else "") + "end(" + m.group(4) + ")") if m.group(4) else (m.group(1) + m.group(2) + "end()")) if m else ""`}; ${5:++`!p snip.rv = t[1].split(" ")[-1]`})
+{
+	$0
+}
+endsnippet
+
+snippet forr "for range" bA
+for (const auto& ${1:var} : boost::make_iterator_range(${2:range}))
+{
+	$0
+}
+endsnippet
+
+snippet iff "if" bA
+if ($1)
+{
+	$0
+}
+endsnippet
+
+snippet print "print" b
+std::cout << $1 << std::end${2:l};
+endsnippet

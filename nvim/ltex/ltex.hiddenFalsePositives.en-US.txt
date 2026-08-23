@@ -1,0 +1,67 @@
+{"rule":"THE_SUPERLATIVE","sentence":"^\\QOne way to approach the problem of intersection of longest paths in a cubic pseudo-Halin graph is to analyze a smallest possible structure present in it.\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QThen every vertex not in \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is in a maximal .\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QAn \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q-spine is the path in the intersection of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q and \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q,.\\E$"}
+{"rule":"COMMA_COMPOUND_SENTENCE_2","sentence":"^\\QThere are two approaches to build this collection, one is top-down and the other is bottom-up.\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QSuppose it holds for \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, and let \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q be an graph where the height of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q and \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is its root.\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QSuppose it holds for \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, and let \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q be an graph where the height of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, the vertex \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is its root, \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is its left most leaf and \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is its right most leaf.\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QAn graph with height \\E(?:Dummy|Ina|Jimmy-)[0-9]+$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QWith \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, it is easy to see that an 1 Hamiltonian cycle because an graph has a Hamiltonian path between the external leaves.\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QLet \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q be an graph.\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QLet \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q be an graph and let \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q be the root of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"DATE_NEW_YEAR","sentence":"^\\QThis report is for the period from February 1, 2024 to January 9, 2025.\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QAn example of an graph\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QA Hamiltonian path on an graph\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QAn \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q-spine is the path in the intersection of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q and \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, if both graphs do not intersect we say they have an empty spine.\\E$"}
+{"rule":"DATE_NEW_YEAR","sentence":"^\\QFrom 10 to 13 October 2024, the student took part in WOPOCA 2024 - Paulista Workshop in Optimization, Combinatorics and Algorithms, where she attended a mini-course on matroids and took part in problem sessions and group work.\\E$"}
+{"rule":"UNKNOWN_HAVE_ITS","sentence":"^\\QFor each \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, let \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q be its root, \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q be its leftmost leaf and \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q be its rightmost leaf.\\E$"}
+{"rule":"DATE_NEW_YEAR","sentence":"^\\QFrom 20 to 23 October 2024, the student took part in LAWCG 2024—Latin America Workshop on Cliques in Graphs with the oral presentation Longest path transversals on Generalized cubic Halin graphs and attendance at several plenary sessions.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QFrom 20 to 23 October 2024, the student took part in LAWCG 2024—Latin America Workshop on Cliques in Graphs with the oral presentation Longest path transversals on Generalized cubic Halin graphs and attendance at several plenary sessions.\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QSuppose it holds for \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, and let \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q be an graph where the height of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, the vertex \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is its root, \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is its leftmost leaf and \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is its rightmost leaf.\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QA Hamiltonian cycle on an graph\\E$"}
+{"rule":"EN_REPEATEDWORDS","sentence":"^\\QFrom 10 to 13 October 2024, the student took part in WOPOCA 2024 - Paulista Workshop in Optimization, Combinatorics and Algorithms, where she attended a mini-course on matroids and took part in problem sessions and group work.\\E$"}
+{"rule":"EN_REPEATEDWORDS","sentence":"^\\QThe problem in question was Matching in Braces.\\E$"}
+{"rule":"EN_REPEATEDWORDS","sentence":"^\\QThe group read thoroughly the article On the Number of Perfect Matchings in a Bipartite Graph for a better understanding of the problem and existing results.\\E$"}
+{"rule":"EN_REPEATEDWORDS","sentence":"^\\QThe group read thoroughly the article On the Number of Perfect Matchings in a Bipartite Graph \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q for a better understanding of the problem and existing results.\\E$"}
+{"rule":"APOS_SPACE_CONTRACTION","sentence":"^\\QThen, the set of vertices \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q can be partitioned into \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q 's subgraphs.\\E$"}
+{"rule":"APOS_SPACE_CONTRACTION","sentence":"^\\QThen, the set of vertices \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q can be partitioned into \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q 's subgraphs because if there was a vertex not in one of this subgraphs it could not be a children of the root.\\E$"}
+{"rule":"APOS_SPACE_CONTRACTION","sentence":"^\\QThen, the set of vertices \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q can be partitioned into \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q 's subgraphs because if there was a vertex not in one of these subgraphs it could not be a child of the root.\\E$"}
+{"rule":"DATE_NEW_YEAR","sentence":"^\\QThis report covers the period from February 1, 2024 to January 9, 2025.\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QLet \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q be an graph in which the height of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"ONE_PLURAL","sentence":"^\\QThe subgraphs \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q and \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q are 1 subgraphs, and \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q and \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q are the children of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QLet \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q be an graph with at least 3 vertices.\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QBy \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, it follows immediately that a 1 graph has a Hamiltonian cycle because it contains an graph and an edge between its external leaves.\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QThe next result shows that an graph also has a Hamiltonian cycle.\\E$"}
+{"rule":"MISSING_COMMA_BETWEEN_DAY_AND_YEAR","sentence":"^\\QThis report covers the period from February 1 2024 to January 9 2025.\\E$"}
+{"rule":"MISSING_COMMA_AFTER_YEAR","sentence":"^\\QThis report covers the period from February 1 2024 to January 9 2025.\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QEach one of these children is the root of a full binary tree \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q such that \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is an subgraph.\\E$"}
+{"rule":"EN_REPEATEDWORDS","sentence":"^\\QIn this situation, a Gallai vertex of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is a vertex that is a center of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q (a problem easy to be solves).\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QTransversals of longest paths in graphs\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QThe student participated in WoPOCA 2024 - Workshop Paulista em Otimização, Combinatória e Algoritmos, an event that took place in Campinas from 10 to 13 October 2024.\\E$"}
+{"rule":"DATE_NEW_YEAR","sentence":"^\\QThe student participated in WoPOCA 2024 - Workshop Paulista em Otimização, Combinatória e Algoritmos, an event that took place in Campinas from 10 to 13 October 2024.\\E$"}
+{"rule":"EN_REPEATEDWORDS","sentence":"^\\QOne of the problems investigated by the group was Matching in Braces, a topic addressed in the paper On the Number of Perfect Matchings in a Bipartite Graph \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"DATE_NEW_YEAR","sentence":"^\\QFrom 20 to 23 October 2024, the student attended LAWCG 2024 (Latin American Workshop on Cliques in Graphs) that was held in Fortaleza.\\E$"}
+{"rule":"SOME_OF_THE","sentence":"^\\QMoreover, we prove that some of the results for the balanced case also hold when the three binary trees may have different heights\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QAn graph with height \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QA Hamiltonian cycle on an graph.\\E$"}
+{"rule":"IE_NO_COMMA","sentence":"^\\QThe lowest common ancestor (\\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q) of a set \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q of vertices in a rooted tree is the lowest (i.e. deepest) vertex that is an ancestor for all vertices in \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"APOS_SPACE_CONTRACTION","sentence":"^\\QThen, the set of vertices \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q can be partitioned into \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q 's subgraphs (some of which may be a trivial graph).\\E$"}
+{"rule":"EN_A_VS_AN","sentence":"^\\QAn example of an graph.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qdocumentclass latexmk soft-ware clsguide [brazilian]Fu-la-no [english]what-ever\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QTransversals of longest paths in graphs[] Transversais de caminhos mais longos em grafos[a subtitle]\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QTransversals of longest paths in graphs[] Transversais de caminhos mais longos em grafos[]\\E$"}
+{"rule":"MISSING_PERIOD_AFTER_ABBREVIATION","sentence":"^\\QProf.02em.-.07emª.07em Dr-.04em.-.11emª.07em\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QAgradecimentos.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qmestrado, quali, programa=Ciência da Computação,\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qmestrado, quali, programa=Computer Science,\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\Qcaseanalysis enumerate 2\\E$"}
+{"rule":"AI_EN_LECTOR_MISSING_DETERMINER_THE","sentence":"^\\QA transversal of longest paths in \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is a set \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q such that \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q intersects every longest path of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"AI_HYDRA_LEO_MISSING_COMMA","sentence":"^\\QIf in the above definition we do not impose any degree restriction on \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q, then the corresponding graph \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q will be called a Halin-like graph.\\E$"}
+{"rule":"THAT_WHO","sentence":"^\\QIn this graph, the children of a vertex \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q are its neighbors that are further than \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q from the root.\\E$"}
+{"rule":"AI_EN_LECTOR_MISSING_DETERMINER_THE","sentence":"^\\QThe focus of this problem is to analyze how of all longest paths intersect with one another.\\E$"}
+{"rule":"EN_WORDINESS_PREMIUM_WITH_RESPECT_TO","sentence":"^\\QThis proof introduces the concept of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q-partial transversals \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q of a graph \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q with respect to the set \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"ARE_CD_NN","sentence":"^\\QNow assume that there are two vertex disjoint paths \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q and \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q with length of at least \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"ARE_CD_NN","sentence":"^\\QNow assume that there are two vertex disjoint paths \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q and \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q with length of at least \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q in \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"EN_WORDINESS_PREMIUM_WITH_RESPECT_TO","sentence":"^\\QThe proof of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q introduces the concept of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q-partial transversals \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q of a graph \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q with respect to the set \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"AI_HYDRA_LEO_MISSING_COMMA","sentence":"^\\QA Maximal k collection \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is a k collection with the largest number of subgraphs of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q with \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q.\\E$"}
+{"rule":"EN_REPEATEDWORDS_PROBLEM","sentence":"^\\QIn this situation, a Gallai vertex of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q is a vertex that is a center of \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q (a problem easy to be solved).\\E$"}
+{"rule":"THINK_OF_CONSIDER","sentence":"^\\QIn this case, the tree \\E(?:Dummy|Ina|Jimmy-)[0-9]+\\Q can also be seen as a rooted tree with three children, each of which is a full binary tree.\\E$"}
