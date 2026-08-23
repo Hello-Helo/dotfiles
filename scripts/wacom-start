@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Get ID
+id=$(xsetwacom list devices | grep "stylus" | cut -b 38-39)
+
+# Set screen
+xsetwacom set $id MapToOutput eDP1
+
+#Set area
+xsetwacom set $id Area 0 0 15200 8550
